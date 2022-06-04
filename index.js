@@ -11,7 +11,7 @@ const sorter = (listNames, cbSort) =>{
   const sortedList = cbSort(listNames);
   const sortedNames = [];
   for (let i = 0; i < sortedList.length; i++){
-    sortedNames.push(` ${i+1}. ${sortedList[i]}`);
+    sortedNames.push(`${i+1}. ${sortedList[i]}`);
   }
   return sortedNames;
 };
